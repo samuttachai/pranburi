@@ -30,7 +30,7 @@
 		$sql_insert_data = "INSERT INTO tbl_checklist(SafetyBelt, FrontLight,BrakeLight, EmerLight, FrontMirror, SideMirror, Wiper, CleaningWater, Fuel, Lubricant, Horn, Brake, AC, Wheel, Fire, Battery, VisualClean, InsideDamage, OutsideDamage, CarRegis, User, date) VALUES('$s_belt_1', '$light_f_1', '$light_b_1', '$light_e_1', '$f_mirror_1', '$s_mirror_1', '$wiper_1', '$water_1', '$fuel_1', '$lube_1', '$horn_1', '$brake_1', '$ac_1', '$wheel_1', '$fire_1', '$battery_1', '$i_clean_1', '$i_dmg_1', '$o_dmg_1', '$car_registration', '$checker', '$date')";
 		mysqli_query($conn, $sql_insert_data);
 		
-		echo "รวย";
+		echo "บันทึกข้อมูลเรียบร้อยแล้ว";
 	}	
 	else
 	{
